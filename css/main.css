@@ -8,8 +8,8 @@ html {
 
 
 body {
-
-    font-family: sans-serif ,Georgia ,tahoma, Arial;
+    background-image: url("images/background.png");
+    font-family: sans-serif ,Georgia, tahoma, Arial;
     font-size: 18px;
     overflow: auto;
     margin: 0;
@@ -33,10 +33,10 @@ p, h1, h2, h3, h4, h5, h6, tr ,th , td {
     max-width: 1250px;
     width: 100%;
     height: 1800px;
-    background: #404040;
-    border: 2px solid #2E6DA4;
+    background: #202020;
+    border: 2px solid #878E63;
     border-radius: 2px;
-    box-shadow: 0 0 10px #2E6DA4;
+    box-shadow: 0 0 10px rgba(12,3,25,0.8);
 
 }
                             /********** Top-page greeting **********/
@@ -44,7 +44,7 @@ p, h1, h2, h3, h4, h5, h6, tr ,th , td {
 #greet {
     width: 100%;
     height: 2.5%;
-    background: #337AB7;
+    background: #878E63;
     overflow: hidden;
 }
 
@@ -74,14 +74,13 @@ nav ul {
 
 nav ul li {
     float: left;
-    border: 1px solid #2E6DA4;
+    border: 1px solid #878E63;
     width: 15%;
     text-shadow: 3px 3px 3px #000;
-    letter-spacing: 2.5px;
 }
 
 nav ul li a {
-    background: #337AB7;
+    background: #878E63;
     display: block;
     padding: 5% 12%;
     font-weight: bold;
@@ -91,7 +90,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li.active a {
-    background-color: #404040;
+    background-color: #181818;
     color: #F87531;
     text-decoration: none;
 }
@@ -99,40 +98,29 @@ nav ul li a:hover, nav ul li.active a {
 .banner img {
     width: 100%;
     height: 500px;
-    border-top: 1px solid #2E6DA4;
-    border-bottom: 1px solid #2E6DA4;
+    border-top: 1px solid #878E63;
+    border-bottom: 1px solid #878E63;
 }
 
-
-#mainNav iframe {
-    min-height: 90px;
-    max-height: 546px;
-    width: 1250px;
-    position: absolute;
-    right: 600px;
-    bottom: 600px;
-
-
-}
                             /********** Left Col **********/
 
 #leftCol {
     float: left;
     position: relative;
     left: 60px;
-    box-shadow: 0 0 80px #F1F0D1;
+    box-shadow: 0 0 80px #F87531;
     margin-top: 40px;
     padding: 0;
     height: 498px;
-    border-bottom: 1px solid #F1F0D1;
-    border-left: 1px solid #F1F0D1;
-    border-top: 1px solid #F1F0D1;
+    border-bottom: 1px solid #F87531;
+    border-left: 1px solid #F87531;
+    border-top: 1px solid #F87531;
 }
 
                             /********** Aside **********/
 
 aside {
-    box-shadow: 0 0 80px #F1F0D1;
+    box-shadow: 0 0 80px #F87531;
     border-radius: 25px;
     text-shadow: 1px 1px 1px #878E63;
     float: right;
@@ -140,57 +128,19 @@ aside {
     left: 150px;
     margin-top: 40px;
     height: 496px;
-    border-bottom: 2px solid #F1F0D1;
-    border-right: 2px solid #F1F0D1;
-    border-top: 2px solid #F1F0D1;
+    border-bottom: 2px solid #F87531;
+    border-right: 2px solid #F87531;
+    border-top: 2px solid #F87531;
 }
-
-                            /********** Upcoming events section **********/
-    
-#upcomingEvents {
-    margin: 0 auto;
-    margin-top: 90px;
-    width: 93%;
-    height: 15%;
-    border-bottom: 2px solid #337AB7;
-    border-right: 2px solid #337AB7;
-    border-left: 2px solid #337AB7;
-    box-shadow: 0 0 80px #337AB7;
-    border-radius: 25px;
-    overflow: hidden;
-    text-align: center;
-}
-
-#upcomingEvents h2 {
-    text-decoration: underline;
-    color: #F87531;
-    text-shadow: 3px 3px 3px #000;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#upcomingEvents h4 {
-    text-decoration: underline;
-    color: #878E63;
-    text-shadow: 2px 2px 2px #000;
-    text-align: center;
-}
-
-#upcomingEvents p {
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-
 
                             /********** Footer **********/
 
 .footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     height: 5%;
-    background: #337AB7;
+    background: #878E63;
     text-align: center;
     overflow: hidden;
     font-family: georgia;
@@ -222,15 +172,9 @@ aside {
     text-shadow: 3px 3px 3px #000;
 }
 
-                            /********** General Stuff **********/
 
 
-/* version 2 color #F87531 */
 
-
-.hiddenPage {
-    display: none;
-}
 
 
 
