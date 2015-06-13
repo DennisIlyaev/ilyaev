@@ -8,8 +8,8 @@ html {
 
 
 body {
-    background-image: url("../images/background.png");
-    font-family: sans-serif ,Georgia, tahoma, Arial;
+
+    font-family: sans-serif ,Georgia ,tahoma, Arial;
     font-size: 18px;
     overflow: auto;
     margin: 0;
@@ -33,10 +33,10 @@ p, h1, h2, h3, h4, h5, h6, tr ,th , td {
     max-width: 1250px;
     width: 100%;
     height: 1800px;
-    background: #202020;
-    border: 2px solid #878E63;
+    background: #404040;
+    border: 2px solid #2E6DA4;
     border-radius: 2px;
-    box-shadow: 0 0 10px rgba(12,3,25,0.8);
+    box-shadow: 0 0 10px #2E6DA4;
 
 }
                             /********** Top-page greeting **********/
@@ -44,7 +44,7 @@ p, h1, h2, h3, h4, h5, h6, tr ,th , td {
 #greet {
     width: 100%;
     height: 2.5%;
-    background: #878E63;
+    background: #337AB7;
     overflow: hidden;
 }
 
@@ -74,13 +74,14 @@ nav ul {
 
 nav ul li {
     float: left;
-    border: 1px solid #878E63;
+    border: 1px solid #2E6DA4;
     width: 15%;
     text-shadow: 3px 3px 3px #000;
+    letter-spacing: 2.5px;
 }
 
 nav ul li a {
-    background: #878E63;
+    background: #337AB7;
     display: block;
     padding: 5% 12%;
     font-weight: bold;
@@ -90,7 +91,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li.active a {
-    background-color: #181818;
+    background-color: #404040;
     color: #F87531;
     text-decoration: none;
 }
@@ -98,8 +99,8 @@ nav ul li a:hover, nav ul li.active a {
 .banner img {
     width: 100%;
     height: 500px;
-    border-top: 1px solid #878E63;
-    border-bottom: 1px solid #878E63;
+    border-top: 1px solid #2E6DA4;
+    border-bottom: 1px solid #2E6DA4;
 }
 
 
@@ -119,19 +120,19 @@ nav ul li a:hover, nav ul li.active a {
     float: left;
     position: relative;
     left: 60px;
-    box-shadow: 0 0 80px #F87531;
+    box-shadow: 0 0 80px #F1F0D1;
     margin-top: 40px;
     padding: 0;
     height: 498px;
-    border-bottom: 1px solid #F87531;
-    border-left: 1px solid #F87531;
-    border-top: 1px solid #F87531;
+    border-bottom: 1px solid #F1F0D1;
+    border-left: 1px solid #F1F0D1;
+    border-top: 1px solid #F1F0D1;
 }
 
                             /********** Aside **********/
 
 aside {
-    box-shadow: 0 0 80px #F87531;
+    box-shadow: 0 0 80px #F1F0D1;
     border-radius: 25px;
     text-shadow: 1px 1px 1px #878E63;
     float: right;
@@ -139,9 +140,9 @@ aside {
     left: 150px;
     margin-top: 40px;
     height: 496px;
-    border-bottom: 2px solid #F87531;
-    border-right: 2px solid #F87531;
-    border-top: 2px solid #F87531;
+    border-bottom: 2px solid #F1F0D1;
+    border-right: 2px solid #F1F0D1;
+    border-top: 2px solid #F1F0D1;
 }
 
                             /********** Upcoming events section **********/
@@ -189,7 +190,7 @@ aside {
     bottom: 0px;
     width: 100%;
     height: 5%;
-    background: #878E63;
+    background: #337AB7;
     text-align: center;
     overflow: hidden;
     font-family: georgia;
