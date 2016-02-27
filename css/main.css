@@ -98,6 +98,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li.active a {
     background-color: #181818;
+    transition: background-color 1.5s ease;
     color: #F87531;
     text-decoration: none;
 }
