@@ -69,4 +69,4 @@ $('#upcomingEvents, nav, footer').on('click', 'a', function(e){
 
 
 
-})();
+});
